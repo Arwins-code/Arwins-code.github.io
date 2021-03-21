@@ -1,0 +1,15 @@
+{
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Arwinsyah Putra",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-wait": "0.0.2",
+    "node-sass": "^4.14.1"
+  }
+}
