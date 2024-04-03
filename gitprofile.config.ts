@@ -52,85 +52,102 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Arwinsyah Putra',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'arwinsyah-putra-072b37153',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'arwinsyahputra22@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Kotlin',
+    'Android',
+    'Java',
+    'Javascript',
+    'Jetpack Compose',
+    'MAD',
+    'Problem Solve',
+    'Communication',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'PT Bank KEB Hana Indonesia',
+      position: 'Android Developer',
+      from: 'Nov 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.hanabank.co.id/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'PT. Infosys Solusi Terpadu',
+      position: 'Android Developer',
+      from: 'Oct 2018',
+      to: 'Dec 2019',
+      companyLink: 'https://www.ist.id/',
+    },
+    {
+      company: 'Institut Teknologi PLN',
+      position: 'Laboratory Assistant',
+      from: 'May 2021',
+      to: 'Nov 2023',
+      companyLink: 'https://itpln.ac.id/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Getting Started Programming with Kotlin',
+      body: 
+      'This class is aimed at those who want to learn the basics of the Kotlin programming language by referring to the international competency standards of Google Developers Authorized Training Partners. At the end of the class, students understand the basic concepts of programming languages, functional programming, and object-oriented programming (OOP) using Kotlin.',
+      year: 'Jul 8, 2023',
+      link: 'https://www.dicoding.com/certificates/N9ZO6N8QDXG5',
+    },
+    {
+      name: 'Learn to Make Android Applications for Beginners',
+      body: 
+      'This class is aimed at beginners who want to start their careers in the Android Developer field by referring to Googles international competency standards. At the end of the class, students can create an Android application that can display lists and detailed data.',
+      year: 'Oct 25, 2023',
+      link: 'https://www.dicoding.com/certificates/QLZ9RGLE9P5D',
+    },
+    {
+      name: 'Learn Java Course',
+      body: 
+      '',
+      year: 'Nov 2, 2022',
+      link: 'https://www.codecademy.com/profiles/ArwinsyahPutra/certificates/d3f89367b558583e361640f778191345',
+    },
+    {
+      name: 'Create REST APIs with Spring and Java Skill Path',
+      body: 
+      '',
+      year: 'Dec 30, 2022',
+      link: 'https://www.codecademy.com/profiles/ArwinsyahPutra/certificates/60f1edf0ac9368001c6025c4',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Institut Teknologi PLN',
+      degree: 'Bachelors Degree of Computer Science',
+      from: '2016',
+      to: '2020',
     },
   ],
   publications: [
@@ -168,11 +185,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'cupcake',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
