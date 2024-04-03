@@ -13,11 +13,11 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Personal Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -29,24 +29,32 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Profesional Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'OCTO Mobile by CIMB Niaga',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This is digital banking in your hands. Now, everything is possible with OCTO Mobile. OCTO Mobile comes with many new features for convenience and ease of transactions. Starting from opening the first account without having to go to a branch, withdrawing and depositing cash without a card and various QR transaction promos at selected merchants or eCommerce.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://play-lh.googleusercontent.com/PEJTXcESMy_1XM_STfm-izSICWACEoMiiCxuYhDIoRZCrwPWkSkDt5fj7eabcxzTbJs=w480-h960-rw',
+          link: 'https://play.google.com/store/apps/details?id=id.co.cimbniaga.mobile.android&pcampaignid=web_share',
         },
         {
-          title: 'Project Name',
+          title: 'BTN Mobile',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Just one application for easy financial transactions, BTN now presents a mobile banking transaction application, namely BTN Mobile. BTN Mobile comes with a cheerful appearance with a new color combination providing refreshment and new experiences for customers. With various superior feature updates and presenting the BTN ecosystem You only need to have a BTN Batara savings account and enjoy the ease and comfort of banking transactions with the latest features.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://play-lh.googleusercontent.com/QiJbipAejp2KU5ni8dqfIrCpfys9RV4ogXJJ3vLLU5K4F1Jc8tK30ovPPSODHTfTe4Fi=s96-rw',
+          link: 'https://play.google.com/store/apps/details?id=id.co.btn.mobilebanking.android&pcampaignid=web_share',
+        },
+        {
+          title: 'LINE Bank',
+          description:
+            'Seeking for a different way of banking? Introducing LINE Bank by Hana Bank – banking apps that is transforming everyday life banking experience. Open an account in minutes, get LINE Friends character Debit Card, and easily monitor your transaction via LINE Bank Official Account notification.',
+          imageUrl:
+            'https://play-lh.googleusercontent.com/FOr8x6Sp-uhkY_QNvXAJ48jv0KniMLgSDWxlj6uH43OV81YkfmX_K3utHOsjvGTWaOhW=w480-h960-rw',
+          link: 'https://play.google.com/store/apps/details?id=id.co.linebank&pcampaignid=web_share',
         },
       ],
     },
@@ -152,28 +160,26 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: '',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      journalName: '',
+      authors: '',
+      link: '',
+      description: '',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: '',
+      conferenceName: '',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      authors: '',
+      link: '',
+      description: '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
