@@ -65,7 +65,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'arwinsyah-putra-072b37153',
+    linkedin: 'arwinsyah-putra/',
     twitter: '',
     mastodon: '',
     researchGate: '',
