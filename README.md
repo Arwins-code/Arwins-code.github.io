@@ -1,6 +1,6 @@
 # My personal portfolio page
 
-Check it out at [Arwins-code.github.io]([arwins-code.github.io](https://arwins-code.github.io/))
+Check it out at [arwins-code.github.io](https://arwins-code.github.io/)
 
 ## Like the template?
 
